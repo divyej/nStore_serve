@@ -21,6 +21,6 @@
     "@babel/preset-env": "^7.22.20"
   },
   "engines": {
-    "node": ">=18 <19"
+    "node": ">=18 <19a"
   }
 }
