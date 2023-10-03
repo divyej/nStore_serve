@@ -177,6 +177,11 @@ app.get('/api/orders', async (req, res) => {
   }
 });
 
-app.listen(port, () => {
- res.send('Server is up and running');
+app.get('/', (req, res) => {
+  res.send('Server is up and running');
 });
+
+// Start the server and listen on the specified port
+app.listen(port, () => {
+  console.log(`Server is listening on port ${port}`);
+})
